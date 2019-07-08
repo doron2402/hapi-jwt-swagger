@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +18,8 @@
     "inert": "^4.0.2",
     "joi": "^9.1.1",
     "lodash": "^4.16.4",
-    "vision": "^4.1.0"
-  }
+    "vision": "^4.1.0",
+    "snyk": "^1.192.3"
+  },
+  "snyk": true
 }
