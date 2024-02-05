@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^2.0.0",
-    "hapi": "^15.1.1",
+    "hapi": "^18.1.0",
     "hapi-auth-jwt": "^4.0.0",
     "hapi-swagger": "^7.2.0",
     "inert": "^4.0.2",
